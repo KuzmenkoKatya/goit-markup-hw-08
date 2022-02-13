@@ -1,0 +1,27 @@
+.directions-photos__item {display: block;}
+.directions {padding-bottom: 94px;}   
+.directions-photos 
+   {display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    justify-content: center; }
+.directions-photos .list 
+   {margin-left: 30px;
+    text-align: center;
+    position: relative;}
+.box-label {position: absolute;
+    bottom: 0;
+    right: 0;
+    left:0;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    min-height:70px;
+    background: rgba(47, 48, 58, 0.8);} 
+.label-title {color: var(--sacondary-white-color);  
+    font-weight: bold;
+    line-height: 0.87;
+    padding-top: 27px;  padding-bottom: 27px;  
+    letter-spacing: 0.03em;  
+    font-size: 14px; 
+    text-transform: uppercase;}
