@@ -1,21 +1,18 @@
 .hero 
     {background-color: #2f303a;
-    padding: 200px 0px 200px 0px;
+    display: flex;
+    align-items: center;
     text-align: center;}
 .hero-title {
     font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--white-color);
-    max-width: 55%;
     margin-left: auto;
     margin-right: auto;}   
 .overlay 
    {max-width: 1600px;
-    height: 600px;
     margin-left: auto;
     margin-right: auto;
     background-color: var(--footer-bacground-color);
@@ -25,3 +22,24 @@ url(../images/header-overlay-squoosh.jpg);
     background-repeat: no-repeat;
     background-position: center;
     block-size: cover;}
+@media screen and (max-width:768px){
+    .overlay {
+        height: 400px;
+        
+    }
+    .hero-title {
+        font-size: 26px;
+        line-height: 1.62;
+        max-width: 360px;
+    }
+}
+@media screen and (min-width:768px){
+    .overlay {
+        height: 600px;
+    }
+    .hero-title {
+        font-size: 44px; 
+        line-height: 1.36;
+        max-width: 55%;
+    }
+}
